@@ -18,4 +18,4 @@ EXPOSE 3006
 
 # 容器启动时执行的命令
 # 使用数组格式 ["executable", "param"] 是 Docker 的最佳实践
-CMD ["hapi", "server"]
+CMD npx @twsxtd/hapi server
