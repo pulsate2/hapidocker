@@ -1,6 +1,5 @@
-# 使用官方 Node.js LTS Alpine 镜像作为基础
-# Alpine 版本体积更小，构建速度更快
-FROM node:lts-alpine
+
+FROM node
 
 # 设置环境变量
 ENV HAPI_HOME=/data
