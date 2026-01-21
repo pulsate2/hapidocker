@@ -3,6 +3,7 @@ FROM node
 
 # 设置环境变量
 ENV HAPI_HOME=/data
+ENV HAPI_LISTEN_HOST=0.0.0.0
 
 # 创建工作目录 (对应环境变量中的路径)
 RUN mkdir -p /data
